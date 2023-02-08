@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto Mono";
+  text-align: center;
+  background-color: #13111E;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 720px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main #salutation {
+  color: #fff;
+  text-shadow: 2px 2px 0px #333;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+.main #question {
+  color: #fff;
+  text-shadow: 2px 2px 0px #333;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 1rem 0;
+}
+.main #options {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.main #options button {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  color: #fff;
+  padding: 20px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 250px;
+  margin: 20px auto;
+}
+.main #options button:hover {
+  border: 3px solid rgb(221, 59, 123);
+  color: rgb(221, 59, 123);
+}
+.main #answer {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */

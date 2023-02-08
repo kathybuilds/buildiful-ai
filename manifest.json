@@ -1,0 +1,14 @@
+{
+    "name": "Buildiful AI",
+    "short_name": "Buildiful AI",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "icons": [{
+        "src": "favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "background_color": "#13111E",
+    "theme_color": "#FFFFFF"
+}
