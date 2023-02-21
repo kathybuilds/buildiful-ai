@@ -20,7 +20,7 @@ function ask()
 
     //clientConsoleLog("Returning: " + i);
 
-    document.querySelector("#answer").innerHTML = ">> Answer: " + document.querySelector(input_id).value;
+    document.querySelector("#answer_div").innerHTML = ">> Answer: " + document.querySelector(input_id).value;
 }
 
 function updateName()
