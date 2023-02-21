@@ -18,16 +18,17 @@
         <script src="js/main.js"></script>
         <script>new Question();</script>
         <div class="main">
-            <div id="salutation">Dear Bruno,</div>
-            <div id="question">which one of the following would you pick?</div>
-            <div id="options">
+            <div id="salutation"></div>
+            <div id="question_div"><input type="text" class="question" placeholder="Enter your question here"></div>
+            <div id="options_div">
                 <form action="javascript:;" onsubmit="ask(this)">
-                    <input type="text" id="option_1" name="option_1" value="Option A"><br>
-                    <input type="text" id="option_2" name="option_2" value="Option B"><br>
+                    <input type="text" id="option_1" class="option" name="option_1" placeholder="Option A"><br>
+                    <input type="text" id="option_2" class="option" name="option_2" placeholder="Option B"><br>
                     <button type="submit">ASK</button>
                 </form>
             </div>
-            <div id="answer">Answer:</div>
+            <div id="answer_div">>> Answer:</div>
         </div>
+        <script>updateName();</script>
     </body>
 </html>
