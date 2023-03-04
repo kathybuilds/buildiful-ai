@@ -17,19 +17,30 @@
     <body>
         <script src="js/main.js"></script>
         <script>new Question();</script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZF6MV156X"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-PZF6MV156X');
+        </script>
         <div class="main">
-            <div id="salutation"></div>
+            <div id="salutation">Hi BAI,</div>
             <div id="question_div"><input type="text" class="question" placeholder="Enter your question here"></div>
             <div id="options_div">
                 <form action="javascript:;" onsubmit="ask(this)">
+                <!--<form action="404.html" onsubmit="window.location.href='404.html'">-->
                     <input type="text" id="option_1" class="option" name="option_1" placeholder="Option A"><br>
                     <input type="text" id="option_2" class="option" name="option_2" placeholder="Option B"><br>
-                    <button type="submit">ASK</button>
+                    <button type="submit">CHOOSE</button>
+                    <!--<button type="submit" formaction="404.html">CHOOSE</button>-->
                 </form>
             </div>
-            <div id="answer_div">>> Answer:</div>
+            <div id="answer_div"></div>
             <!--<div id="footer_link">Note</div>-->
         </div>
-        <script>updateName();</script>
+        <!--<script>updateName();</script>-->
     </body>
 </html>
