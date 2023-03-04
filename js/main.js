@@ -11,6 +11,11 @@ class Question
     }
 }
 
+function init()
+{
+    document.querySelector("#answer_div").style.visibility = "hidden";
+}
+
 function ask()
 {
     //clientConsoleLog("Asked");
@@ -21,7 +26,8 @@ function ask()
     //clientConsoleLog("Returning: " + i);
 
     //document.querySelector("#answer_div").innerHTML = ">> Answer: " + document.querySelector(input_id).value;
-    document.querySelector("#answer_div").innerHTML = "to be continued...";
+    //document.querySelector("#answer_div").innerHTML = "to be continued...";
+    document.querySelector("#answer_div").style.visibility = "visible";
 }
 
 function updateName()
