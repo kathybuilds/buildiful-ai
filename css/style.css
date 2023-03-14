@@ -13,7 +13,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 480px;
+  max-width: 720px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
-  width: 320px;
+  width: 90%;
   margin: 20px auto;
   resize: none;
 }
@@ -52,7 +52,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
-  width: 320px;
+  width: 90%;
   margin: 10px auto;
 }
 .main #options_div button {
